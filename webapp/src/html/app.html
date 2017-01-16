@@ -8,7 +8,7 @@
     <link href="../css/app.css" rel="stylesheet" type="text/css"/>
   </head>
   <body id="www-wd-com">
-  
+
     <div class="g-doc">
       <div class="g-hd">
         <h1 class="m-logo">网易-杭研院-前端技术组-实例库</h1>
@@ -26,7 +26,7 @@
         </div>
       </div>
     </div>
-    
+
     <div id="template-box" style="display:none;">
       <!-- @TEMPLATE -->
       <textarea name="html" data-src="module/tab/index.html"></textarea>
@@ -46,17 +46,17 @@
       <textarea name="html" data-src="module/setting/account.tab/index.html"></textarea>
       <!-- /@MODULE -->
     </div>
-    
+
     <!-- @IGNORE -->
     <script src="../javascript/cache/tag.data.js"></script>
     <script src="../javascript/cache/blog.data.js"></script>
     <!-- /@IGNORE -->
-    
+
     <!-- @VERSION -->
     <script>location.config={root:'./'};</script>
     <script>window.NEJ_CONF = {root:'../../res/'};</script>
     <!-- @SCRIPT -->
-    <script src="http://10.240.155.78:8020/NEJ/src/define.js"></script>
+    <script src="../../../nej/define.js"></script>
     <script>
       NEJ.define([
           'util/dispatcher/dispatcher'
@@ -84,13 +84,13 @@
                       'blog-list':'/?/blog/list/',
                       'setting-tab':'/?/setting/tab/',
                       'setting-account-tab':'/?/setting/account/tab/',
-                      
+
                       'layout-system':'/m',
                       'layout-blog':'/m/blog',
                       'layout-blog-list':'/m/blog/list/',
                       'layout-setting':'/m/setting',
                       'layout-setting-account':'/m/setting/account',
-                      
+
                       'blog-tag':['/m/blog/tag/','/m/setting/tag/'],
                       'setting-edu':'/m/setting/account/edu/',
                       'setting-profile':'/m/setting/account/',
@@ -105,7 +105,7 @@
                   '/?/blog/list/':'module/blog/list/index.html',
                   '/?/setting/tab/':'module/setting/tab/index.html',
                   '/?/setting/account/tab/':'module/setting/account.tab/index.html',
-                  
+
                   '/m':{
                       module:'module/layout/system/index.html',
                       composite:{
@@ -127,7 +127,7 @@
                       }
                   },
                   '/m/blog/tag/':'module/blog/tag/index.html',
-                  
+
                   '/m/setting':{
                       module:'module/layout/setting/index.html',
                       composite:{
@@ -154,7 +154,7 @@
                   '/?/blog/list/':'module/blog.html',
                   '/?/setting/tab/':'module/setting.html',
                   '/?/setting/account/tab/':'module/setting.html',
-                  
+
                   '/m':{
                       module:'module/layout.html',
                       composite:{
@@ -176,7 +176,7 @@
                       }
                   },
                   '/m/blog/tag/':'module/blog.html',
-                  
+
                   '/m/setting':{
                       module:'module/layout.html',
                       composite:{
